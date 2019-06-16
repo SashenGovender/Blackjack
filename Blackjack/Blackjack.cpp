@@ -193,7 +193,7 @@ Card* Blackjack::GetCard()
 	}
 
 	if (!mBlackjackDeck.size())
-		 throw std::runtime_error("Insufficent Cards");// how to handle this?
+		 throw std::runtime_error("Insufficent Cards");// how to handle this? TODO
 
 	int deckNumber = Helpers::GetRandomNumber(0, mBlackjackDeck.size() - 1);
 
